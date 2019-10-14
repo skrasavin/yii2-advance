@@ -38,8 +38,17 @@ return [
         ],
         'urlManager' => [
             'enablePrettyUrl' => true,
-            'showScriptName' => false,
+            'showScriptName' => true,
             'rules' => [
+            ],
+        ],
+        'view' => [
+            'theme' => [
+                'basePath' => '@app/themes/first',
+                'baseUrl' => '@app/themes/first',
+                'pathMap' => [
+                 //   '@app/views/site' => '@app/themes/first/site',
+                ],
             ],
         ],
 

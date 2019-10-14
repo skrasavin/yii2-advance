@@ -66,9 +66,7 @@ class SiteController extends Controller
             ],
         ];
     }
-    public function actionHello() {
-        return "hello world";
-    }
+
     /**
      * Displays homepage.
      *
